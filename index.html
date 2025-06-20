@@ -14,11 +14,20 @@
     <header>
       <h1>FSCpu <br> <span style="margin-left: 1em; font-size: 50%; font-style: italic; color:inherit;"> the processor for the people, by the people</span></h1>
     </header>
-    <article>
-      <h1> FSCpu - the Free Systems Cpu</h1>
+    <article style="flex-basis: 60%; padding-left: 5em;">
+      <h3> FSCpu - the Free Systems Cpu</h3>
       The FSCpu is a cpu to be designed by ANYONE for ANYONE. <br>
       FSCpu's instruction set is designed to be VERY VERY easy to <br>
       compile to C, fortran, Cobol, Flow-Matic, and Speedcoding. <br>
+      <table>
+        <tr><th>Instruction</th><th>Details</th></tr>
+        <tr><td>DISP</td><td>Print the contents of a register to the screen</td></tr>
+        <tr><td>LOOP</td><td>Loop the following code, until STOP, input number of times</td></tr>
+        <tr><td>STOP</td><td>Stop the precedure, throws an error, error code: S</td></tr>
+        <tr><td>IF</td><td>An 'if' precedure</td></tr>
+        <tr><td>ERRH</td><td>This procedure MUST be called first thing in an operating system, it automatically pushes AX1 to the stack, and sets AX1 to the error code. Use for trying to fix error, as errors are automatically printed to the screen.</td></tr>
+        
+      </table>
     </article>
   </body>
 </html>
